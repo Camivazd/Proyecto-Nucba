@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,300&family=Montserrat:wght@200&family=Mukta+Vaani:wght@300&family=Mukta:wght@200&family=Nunito&family=Square+Peg&family=Updock&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*HEADER*/
+.header {
+    background-color:black;
+    height: 100%;
+    border-bottom: 2px red solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoNav img {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;   
+    font-weight: bold;
+    font-size: 14px;
+}
