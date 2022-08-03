@@ -16,7 +16,7 @@ body {
 /*HEADER*/
 .header {
     background-color:black;
-    height: 100%;
+    height: 11vh;
     border-bottom: 2px red solid;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,7 @@ body {
 }
 
 .logoNav img {
-    width: 50%;
+    width: 100%;;
     padding-left: 20px;
     padding-top: 5px;
 }
