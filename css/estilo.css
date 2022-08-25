@@ -131,3 +131,156 @@ body {
 .articuloText {
     color: #fff;
 }
+
+
+/* CARDS */
+.tituloCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #24252A;
+    color: #fff;
+}
+
+.sectionDos{
+    background-color: #24252A;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 500px;
+  max-width: 1280px;
+  min-height: 400px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card1 {
+  background: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/03/posters-individuales-vengadores-10o-aniversario-marvel_5.jpg?itok=LetiVzAL") center center no-repeat;
+  background-size: 300px;
+}
+.card1:hover {
+  background: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2018/03/posters-individuales-vengadores-10o-aniversario-marvel_5.jpg?itok=LetiVzAL") left center no-repeat;
+  background-size: 600px;
+}
+.card1:hover h4 {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYRZApLENPErEzRluOxz7svucMVB3z2GXxrg&usqp=CAU") center center no-repeat;
+  background-size: 300px;
+}
+.card2:hover {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYRZApLENPErEzRluOxz7svucMVB3z2GXxrg&usqp=CAU") left center no-repeat;
+  background-size: 600px;
+}
+.card2:hover h4 {
+  opacity: 1;
+}
+
+.card3 {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjZVOJH-88txmviiS1K2dBL1hJ9YheSg-1g&usqp=CAU") center center no-repeat;
+  background-size: 300px;
+}
+.card3:hover {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNjZVOJH-88txmviiS1K2dBL1hJ9YheSg-1g&usqp=CAU") left center no-repeat;
+  background-size: 600px;
+}
+.card3:hover h4 {
+  opacity: 1;
+}
+
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.contacto{
+  display: flex;
+}
+.social {
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  background-color: #000;
+}
+
+.about{
+  display: flex;
+  background-color: #000;
+}
+
+
+.team{
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 2em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.team2{
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 1em;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+}
